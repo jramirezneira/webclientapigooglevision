@@ -8,7 +8,7 @@ Creado por Javier Ramírez Neira
 ```bash
 npm install
 ```
-### Ejecucuión
+### Ejecución
 ```bash
 npm start
 ```
