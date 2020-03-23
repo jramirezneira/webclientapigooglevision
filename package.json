@@ -1,0 +1,29 @@
+{
+  "name": "webclienteapi",
+  "version": "1.0.0",
+  "description": "web cliente de api google vision cloud desplegada en kubernetes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Javier",
+    "vision",
+    "api",
+    "google"
+  ],
+  "author": "Javier Ramírez",
+  "license": "MIT",
+  "homepage": "https://www.javierramirezportfolio.com",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0"
+  }
+}

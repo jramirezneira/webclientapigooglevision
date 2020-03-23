@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>Google Vision API - Javier Ramírez</title><!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">	
+</head>
+
+<body>
+	<div class="container justify-content-md-center" style="width: 600px;">
+		<div class="row">
+			<div class="col col-lg-6">
+				<input type="file" name="afile" id="afile" onchange="previewFile()" accept="image/*"/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-lg-6">
+				<img src="" height="300" alt="Image preview...">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6">
+				<button class="shutter" onclick="getObjectDetection()">
+				   Detecta Objectos
+				</button>
+			
+				<button class="shutter" onclick="getExplicitContent()">
+				   Contenido explícito
+				</button>
+			</div>	
+		</div> 
+		<div class="row">
+			<div class="col-6">
+				<h2>Objetos</h2>
+				<div id="labels"></div>
+			</div>	
+			<div class="col-6">
+				<h2>Contenido explícito</h2>
+				<div id="ContentExplicit"></div>
+			</div> 
+		</div>
+	</div>
+
+    <script src="./app.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	
+</body>
+
+
+</html>
