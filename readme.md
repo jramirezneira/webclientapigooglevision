@@ -1,7 +1,14 @@
-# DevFest 
+## Aplicación web nodejs cliente de ejemplo que consume api rest google cloud vision
 
-This repo was created for the Google DevFest 2017 Medellín
+Creado por Javier Ramírez Neira
 
 ## Google Could Vision + NodeJS
 
-This repository was created intending to show the benefits and features of Google Cloud Vision API and NodeJS SDK.
+### Instalación
+```bash
+npm install
+```
+### Ejecucuión
+```bash
+npm start
+```
