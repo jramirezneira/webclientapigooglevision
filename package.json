@@ -21,7 +21,7 @@
   "license": "MIT",
   "homepage": "https://www.javierramirezportfolio.com",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "eslint": "^4.10.0"
